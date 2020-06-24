@@ -1,11 +1,9 @@
 package com.reddy;
 
 public class CloneMethod implements Cloneable{
-	
 	int i=10;
 	int j=20;
 	public static void main(String[] args) throws CloneNotSupportedException {
-		
 		CloneMethod c1=new CloneMethod();
 		CloneMethod c2=(CloneMethod)c1.clone();
 		System.out.println(c2);
@@ -15,5 +13,4 @@ public class CloneMethod implements Cloneable{
 		System.out.println(c1.j +"------"+ c1.i);
 		System.out.println("new code added");
 	}
-
 }
