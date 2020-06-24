@@ -13,6 +13,7 @@ public class CloneMethod implements Cloneable{
 		c2.j=333;
 		System.out.println(c2.i +"--"+c2.j);
 		System.out.println(c1.j +"------"+ c1.i);
+		System.out.println("new code added");
 	}
 
 }
